@@ -1336,6 +1336,10 @@
     height: 50px;
     font-size: 20px;
   }
+  .btn_slide-home:hover {
+    width: 52px;
+    height: 52px;
+  }
 }
 @media screen and (max-width: 1025px) {
   .carousel-inner .carousel-item {
@@ -1464,15 +1468,11 @@
   .btn_slide-home {
     width: 40px;
     height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
     font-size: 15px;
-    color: White;
-    font-weight: bold;
-    background-color: #171b20;
-    margin: 0 auto;
+  }
+  .btn_slide-home:hover {
+    width: 42px;
+    height: 42px;
   }
 
   .slide_1 {
