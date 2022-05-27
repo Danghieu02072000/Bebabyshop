@@ -177,10 +177,11 @@ $font: "Bodoni Moda",Helvetica,Arial,sans-serif;
     }
 }
 .btn_shopping--close{
-    color:rgb(0 0 0 / 15%);
+    color:rgb(0 0 0 / 30%);
     position: absolute;
-    top: 20%;
-    left:5%;
+    top: 27%;
+    left:6%;
+   font-size: 25px;
     span{
         font-size: 30px;
     }
@@ -325,6 +326,7 @@ $font: "Bodoni Moda",Helvetica,Arial,sans-serif;
 .close-respon{
     width:100%;
     text-align: end;
+    color:white;
     font-size: 25px;
 }
 .login{

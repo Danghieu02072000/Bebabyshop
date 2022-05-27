@@ -176,10 +176,11 @@
 }
 
 .btn_shopping--close {
-  color: rgba(0, 0, 0, 0.15);
+  color: rgba(0, 0, 0, 0.3);
   position: absolute;
-  top: 20%;
-  left: 5%;
+  top: 27%;
+  left: 6%;
+  font-size: 25px;
 }
 .btn_shopping--close span {
   font-size: 30px;
@@ -337,6 +338,7 @@
 .close-respon {
   width: 100%;
   text-align: end;
+  color: white;
   font-size: 25px;
 }
 
