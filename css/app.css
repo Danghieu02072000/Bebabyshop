@@ -4239,6 +4239,9 @@ body .slide_right_bottom a:hover::before {
   }
 }
 @media screen and (max-width: 450px) {
+  body .size-33 {
+    font-size: 33px;
+  }
   body .container {
     width: 90%;
   }
