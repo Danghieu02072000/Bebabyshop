@@ -850,6 +850,14 @@
   margin: 0 auto;
 }
 
+.btn_slide-home:hover {
+  width: 73px;
+  height: 73px;
+  transition: 0.4s ease;
+  opacity: 0.8;
+  color: #ececec;
+}
+
 .carousel-inner .carousel-item {
   position: relative;
 }
