@@ -325,7 +325,7 @@
 }
 
 .size--sm {
-  width: 28% !important;
+  width: 30% !important;
 }
 
 .bg--dark-light {
@@ -4368,6 +4368,16 @@ body .slide_right_bottom a:hover::before {
   margin: unset;
 }
 
+@media only screen and (max-width: 1700px) {
+  #fixed {
+    width: 5%;
+  }
+
+  .floating-top {
+    bottom: 15px;
+    right: 5%;
+  }
+}
 @media only screen and (max-width: 1025px) {
   #fixed {
     height: 37%;
