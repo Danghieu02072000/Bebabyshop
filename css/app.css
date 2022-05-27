@@ -677,6 +677,10 @@
   .header_topBar_menu--respon li {
     font-size: 14px;
   }
+
+  .Top_bar-fixed .header_logo #logo img {
+    width: 50%;
+  }
 }
 .footer_wapper {
   color: #6a717c;
