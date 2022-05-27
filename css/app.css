@@ -592,7 +592,7 @@
     width: 37% !important;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .menu_bottom-respon {
     display: flex;
     position: fixed;
@@ -774,7 +774,7 @@
     font-size: 15px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .footer_center {
     text-align: center;
     font-size: 14px;
@@ -1435,7 +1435,7 @@
     font-size: 17px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .list_product .item_product .img_product .img_hover {
     font-size: 15px;
   }
@@ -2047,7 +2047,7 @@ input[type=email]:focus {
     padding: 30px 20px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .ourProduct_show {
     display: none;
   }
@@ -2395,7 +2395,7 @@ input[type=email]:focus {
     font-size: 13px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .wrapper_ClientCenter .ClientCenter_content2 .ClientCenter_form {
     width: 85% !important;
   }
@@ -2569,7 +2569,7 @@ input[type=email]:focus {
     width: 85%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .wrapper_blog .content_blog .item_content_blog .desc_content_blog {
     width: 100%;
     bottom: 0px;
@@ -2672,7 +2672,7 @@ input[type=email]:focus {
     padding: 0px 4px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .container {
     width: 100% !important;
   }
@@ -2925,7 +2925,7 @@ input[type=email]:focus {
     width: 70%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .ClientCenter-list__item {
     margin: 20px;
   }
@@ -3071,7 +3071,7 @@ input[type=email]:focus {
   margin: 5px 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .Paq-list_link {
     position: unset;
   }
@@ -3529,7 +3529,7 @@ figure.zoom img {
     left: 36%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .wrapper-product h2 {
     line-height: 1.3;
   }
@@ -3732,7 +3732,7 @@ figure.zoom img {
     padding: 60px 10px 25px 30px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .container {
     width: 90% !important;
   }
@@ -4188,7 +4188,7 @@ body .slide_right_bottom a:hover::before {
     font-size: 13px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   body .container {
     width: 90%;
   }
@@ -4341,7 +4341,7 @@ body .slide_right_bottom a:hover::before {
     display: none;
   }
 }
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 450px) {
   #fixed {
     display: none;
   }
