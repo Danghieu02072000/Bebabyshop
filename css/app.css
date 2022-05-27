@@ -516,6 +516,18 @@
   display: none;
 }
 
+@media screen and (max-width: 1700px) {
+  .Top_bar-fixed .header_logo #logo {
+    position: absolute;
+    left: 10%;
+    padding: 5px 0;
+  }
+
+  .Top_bar-fixed .top-icon {
+    right: 2% !important;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 1025px) {
   .search-respon {
     display: none;
