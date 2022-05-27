@@ -1,0 +1,42 @@
+<div class="on_top" id="back-to-top" style="visibility: hidden">
+    <div>
+      <a class="floating-top" href="#">
+        <i class="fa-solid fa-angle-up"></i>
+      </a>
+   </div>
+  </div>
+  <div id="fixed">
+    <div class="fixed-1">
+      <div class="fx-text">
+        <p
+          class="test"
+          style="font-weight: 500; letter-spacing: 3px; font-size: 20px"
+        >
+          650+
+        </p>
+        <p class="test" style="font-weight: 400">websites</p>
+      </div>
+    </div>
+    <div class="fixed-2">
+      <img
+        src="/images/img_header/Screenshot_2022-04-19_103651-removebg-preview.png"
+        alt=""
+      />
+      <p>Buy Now</p>
+    </div>
+  </div>
+  <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+          if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+              document.getElementById("back-to-top").style.visibility = "visible";
+          } else {
+              document.getElementById("back-to-top").style.visibility = "hidden";
+          }
+      }
+      document.getElementById('back-to-top').addEventListener("click", function(){
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      });
+  </script>

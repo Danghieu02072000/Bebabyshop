@@ -1,0 +1,394 @@
+.themecolor{
+    color: #ebc989;
+}
+
+
+.aboutUs_wrapper{
+    .modal{
+        .modal-dialog{
+            top:10%;
+            width:59%;
+            height: 69%;
+            max-width: none;
+            .modal-content{
+                width:100%;
+                height: 100%;
+                .modal-body{
+                    padding:0px;
+                    .mfp-iframe{
+                        width:100%;
+                        height: 100%;
+                    }
+                    i{
+                        position: absolute;
+                        top: -4%;
+                        right: 2px;
+                        color: white;
+                        opacity: 0.6;
+                        font-weight: bold;
+                    }
+                    i:hover{
+                        opacity: 1;
+                    }
+                }
+    
+            }
+        }
+    }
+   
+    h2{
+        line-height: unset;
+    }
+    img{
+        max-width: 100%;
+    }
+    a{
+        font-family: $font_title;
+    }
+    .container{
+        width: 90%;
+        .aboutUs_hello{
+            text-align: center;
+            width:40%;
+            margin:50px 30% 20px;
+            h1{
+                font-size: 110px;
+                color: #171B20;
+                font-family: $font;
+
+            }
+            h3{
+                line-height: 40px;
+            }
+        }
+        .aboutUs_video{
+            padding:320px 0;
+            background-image: url("/images/img_AboutUs/babyshop-wrap-bg1.webp");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            .button_video{
+                text-align: center;
+                img{
+                    
+                }
+            }
+        }
+        .aboutUs_clothes{
+            padding: 90px 0;
+            .aboutUs_title1{
+                h2{
+                
+                }
+            }
+            .aboutUs_desc{
+                .aboutUs_text
+                {
+                    h5{
+                        line-height: 30px;
+                        .dropcap{
+                            display: inline-block;
+                            background-color: white;
+                            color:#ebc989;
+                            width: 60px;
+                            height: 60px;
+                            line-height: 60px;
+                            font-size: 40px;
+                            margin: 0 10px 5px 0;
+                            text-align: center;
+                            float:left;
+                        }
+                    }
+                }
+                .aboutUs_signature{
+                    padding:40px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    .aboutUs_signature_left{
+                        h6{
+                            margin-bottom:0px;
+                        }
+                    }
+                    .aboutUs_signature_right{
+    
+                    }
+                }
+            }
+            .aboutUs_space{
+                text-align: center;
+                padding:40px 0;
+            }
+            .aboutUs_countdown{
+                .aboutUs_countdown_left{
+                    h4{
+                        font-size: 20px;
+                        font-family: $font;
+                        color:#171B20;
+                    }
+                }
+                .aboutUs_countdown_right{
+                    .wrapper_right{
+                        width:80%;
+                        margin:0 auto;
+                    }
+                }
+            }
+         
+        }
+        .aboutUs_ourTeam{
+            text-align: center;
+            padding: 110px 0;
+            .aboutUs_ourTeam_top{
+                background-color: #f6f7f9;
+                padding:80px 15% 60px;
+                margin: 0 10%;
+                 h6{
+            color: #ebc989;
+            font-size: 14px;
+            font-family: $font_title;
+                    }
+        }
+            .wrapper_ourTeam_list{
+           .wrapper_ourTeam{
+               position: relative;
+
+            img{
+                width:100%;
+            }
+               .ourTeam_desc{
+                   position: absolute;
+                   width:100%;
+                   padding:20px 15px 35px;
+                   left:0%;
+                   bottom:0%;
+                   transition: all 0.2s ease-in-out;
+                   .subtitle{
+                       padding:4px 8px;
+                       font-size: 17px;
+                       background-color: black;
+                       color:white;
+                       border-radius: 3px;
+                       
+                   }
+                   h2{
+                       font-size: 30px;
+                       margin-bottom:0px;
+                   }
+                   .line{
+                    background-color: black;
+                    height: 0px;
+                    width:0%;
+                    margin:0 auto;
+                    transition: all 0.3s ease-in-out;
+                }
+               }
+            }
+            .wrapper_ourTeam:hover .ourTeam_desc{
+                bottom:3%;
+            
+            }
+            .wrapper_ourTeam:hover .line{
+                height: 1px;
+                width:70%;
+            
+            }
+        }
+            .aboutUs_ourTeam_bottom{
+                background-color: #f6f7f9;
+                padding:80px 15%;
+                margin: 0 10%;
+                h5{
+                    padding-bottom:30px;
+                }
+              a{
+                  padding:18px 40px;
+                  background-color: #171B20;
+                  color: white;
+                  font-size:16px;
+                  border-radius: 5px;
+                  line-height: 20px;
+
+              }
+            }
+        }
+        .aboutUs_quality{
+            text-align: center;
+            .img_wrapper1{
+                padding-bottom:20px
+            }
+            .quality_desc{
+                h6{
+                    padding-bottom:10px;
+                }
+                p{
+
+                }
+            }
+            .quality_space{
+                padding:60px 0px;
+            }
+            .quality_bottom{
+                padding:30px 25%;
+
+            }
+        }
+        .aboutUs_bottom{
+            text-align: center;
+            .about_bottom_left{
+                padding: 5% 1%;
+            }
+            .about_bottom_right{
+                padding: 5% 1%;
+            }
+            .about_bottom1{
+               
+            .about_bottom1_bg{
+                background-image: url("/images/img_AboutUs/babyshop-wrap-bg2.webp");
+                padding: 90px 0 60px;
+                background-position: center top;
+                background-repeat: no-repeat;
+                background-size: contain;
+                .count{
+                    margin-bottom:25px;
+                    span{
+                        color:black;
+                        font-size:30px;
+                        font-family: $font;
+                    }
+                }
+                }
+            }
+            .about_bottom2{
+                margin: 40px 0px;
+                .about_bottom2_bg{
+                    background-image: url("/images/img_AboutUs/babyshop-wrap-bg3.webp");
+                    padding: 90px 0 60px;
+                    background-position: center top;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    .count{
+                        margin-bottom:25px;
+                            span{
+                                color:black;
+                                font-size:30px;
+                                font-family: $font;
+                            }
+                        }
+                        }
+                    }
+            .about_bottom3{
+  
+                .about_bottom3_bg{
+                    background-image: url("/images/img_AboutUs/babyshop-wrap-bg4.webp");
+                    padding: 90px 0 60px;
+                    background-position: center top;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                        .count{
+                             margin-bottom:25px;
+                            span{
+                                color:black;
+                                font-size:30px;
+                                font-family: $font;
+                            }
+                    }
+                }
+            }
+        }
+       
+    }
+}
+@media screen and (max-width: 1025px){
+    .aboutUs_wrapper{
+      .modal{
+            .modal-dialog{
+                top:10%;
+                width:71%;
+                height: 404px;
+            }
+        }
+    }
+    
+    
+
+.aboutUs_wrapper .container .aboutUs_ourTeam .wrapper_ourTeam_list .wrapper_ourTeam .ourTeam_desc h2 {font-size: 26px;}
+}
+@media screen and (max-width: 770px){
+    .aboutUs_wrapper .container .aboutUs_hello {
+        width:100%;
+        margin: 50px 0 20px;
+    }
+    .aboutUs_wrapper{
+        .modal{
+            .modal-dialog{
+                top:10%;
+                width:715px;
+                height: 402px;
+            }
+        }
+    }
+    h2{
+        font-size: 39px;
+    }
+    h3 {
+        font-size: 27px;
+    }
+    h4{
+        font-size: 17px !important;
+    }
+    h5{
+        font-size: 17px;
+    }
+    h6{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 400px){
+    .wrapper_ClientCenter .ClientCenter_content2 .ClientCenter_form{
+        width:85% !important;
+    }
+    .aboutUs_wrapper{
+        .modal{
+            .modal-dialog{
+                top:20%;
+                width: 362px;
+                height: 204px;
+            }
+        }
+    }
+    .aboutUs_wrapper .modal .modal-dialog .modal-content .modal-body i {top:-10%}
+    a{
+        font-size: 15px;
+    }
+    h5{
+        font-size: 13px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 33px;
+    }
+    .aboutUs_wrapper .container .aboutUs_hello {
+        margin:0;
+        padding:0 ;
+        width:100%;
+        h3{
+            line-height: 24px;
+        }
+    }
+    .aboutUs_countdown{
+        text-align: center;
+
+    }
+    .aboutUs_wrapper .container .aboutUs_ourTeam .aboutUs_ourTeam_bottom{
+        padding: 60px 0;
+    }
+    .aboutUs_wrapper .container .aboutUs_quality .quality_bottom {
+        padding: 30px 0;
+
+    }
+    .themecolor{
+        padding-bottom:0;
+    }
+}

@@ -1,0 +1,110 @@
+
+  /* Style the tab */
+  #topContact{
+      font-family: $font_title;
+      font-size: 17px;
+  }
+  .bl-hehe{
+      color: #a8a8a8;
+  }
+  .tab {
+    padding-top: 20px;
+    overflow: hidden;
+    background-image: url("/images/img_blog/stripes_5_b.png");
+    padding: unset;
+    height: 51px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab li {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    list-style: none;
+    a {
+      font-size: 16px;
+      color:  #cfb481;;
+      text-decoration: none;
+      &:hover {
+          color:#ffbb39;
+        text-decoration: underline;
+      }
+      i {
+        padding: 0px 6px;
+      }
+    }
+  }
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    border-top: none;
+  }
+  .filters_wrapper {
+    .categories {
+      display: flex;
+      list-style: none;
+      padding: unset;
+      margin: unset;
+      .blahaha {
+        padding: unset;
+        display: inline-block;
+        margin: 1%;
+        width: 18%;
+        height: 37px;
+        background: #fff;
+        a {
+            text-align: start;
+            border: 1px solid #F7F7F7;
+          display: block;
+          padding: 7px 10px;
+          color:  #858585;
+        }
+        &:hover {
+          background: #cfb481;
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .bl-close {
+    width: 40px !important;
+    background: grey !important;
+    &:hover {
+      background:#858585 !important;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    .tab li {
+      padding: 0px 4px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .container{
+      width:100% !important;
+    }
+    .bl-hehe {
+      display: none;
+    }
+    .tab li a {
+      font-size: 13px;
+    }
+    .bl-top-text-hehehe {
+      font-size: 13px !important;
+    }
+    .blahaha {
+      width: 45% !important;
+    }
+    .bl-close {
+      width: 35px !important;
+      height: 35px !important;
+      padding-left: 0px !important;
+    }
+  }
+  

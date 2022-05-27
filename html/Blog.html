@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="./css/app.css" />
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Jost:ital,wght@0,500;0,700;1,300;1,500;1,700&family=Lato:ital,wght@1,100;1,300;1,400;1,700&family=Montserrat&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&family=Chakra+Petch:wght@500&family=Jost:ital,wght@0,500;0,700;1,300;1,500;1,700&family=Lato:ital,wght@1,100;1,300;1,400;1,700&family=Montserrat&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500;1,6..96,700&family=Chakra+Petch:wght@500&family=DM+Mono:ital,wght@0,500;1,300;1,500&family=Jost:ital,wght@0,500;0,700;1,300;1,500;1,700&family=Lato:ital,wght@1,100;1,300;1,400;1,700&family=Montserrat&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500;1,6..96,700&family=Chakra+Petch:wght@500&family=DM+Mono:ital,wght@0,500;1,300;1,500&family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,300;1,500;1,600;1,700&family=Lato:ital,wght@1,100;1,300;1,400;1,700&family=Montserrat&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+      integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/app.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("/include/header.html");
+        $("#footer").load("/include/footer.html");
+        $("#fixed").load("/include/fixed.html");
+        $("#next-item").load("/include/next-item.html");
+        $("#topContact").load("/include/topContact.html");
+        $("#fixed").load("/include/fixed.html")
+      });
+    </script>
+  </head>
+  <body style="overflow-x: hidden">
+    <div id="header"></div>
+    <div id="fixed"></div>
+    <div class="wrapper_blog">
+        <div class="container">
+            <div class="header_blog">
+                <h1 class="title">Blog</h1>
+                <ul class="list_link_page">
+                    <li class="link_page"><a href="/index.html">Home</a> <i class="fa-solid fa-chevron-right"></i></li>
+                    <li class="link_page"><a>Blog</a></li>
+                </ul>
+                <div id="topContact"></div>
+            </div>
+            <div class="content_blog">
+                <div class="item_content_blog">
+                    <div class="img_content_blog">
+                        <img src="/images/img_blog/babyshop-blog-pic1-1200x675.webp">
+                        <div class="button_love">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>49</span>
+                        </div>
+                    </div>
+                    <div class="desc_content_blog">
+                        <div class="post_desc">
+                            <div class="post_header">
+                                <ul>
+                                    <li><a>Backstage</a></li>
+                                    <li><a>Family</a></li>
+                                </ul>
+                            </div>
+                            <div class="post_title">
+                                <a href="/html/Blog1.html"><h3>Tempor diam pede cursus vitae</h3></a>
+                            </div>
+                            <div class="post_excerpt">
+                            <p>Phasellus vitae facilisis congue. Donec nulla eu pede ac arcu nec enim quis nibh. Fusce venenatis consequat. Curabitur gravida ornare. Etiam mollis luctus. Maecenas pulvinar sem ut wisi. In accumsan lectus semper nisl, commodo tempus, dui eu libero.</p>
+                            </div>
+                            <div class="post_footer">
+                              <div class="post_author">
+                                  <img src="/images/img_blog/057e2eb392b95a2ecfc9d32d554e3917.png">
+                                    <span>Muffin Group</span>
+                              </div>
+                              <span class="post_date">
+                                <i class="fa-solid fa-clock"></i> <span>October 11, 2021</span>
+                              </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item_content_blog">
+                  <div class="img_content_blog">
+                      <img src="/images/img_blog/babyshop-blog-pic2-1200x675.webp">
+                      <div class="button_love">
+                          <i class="fa-solid fa-heart"></i>
+                          <span>49</span>
+                      </div>
+                  </div>
+                  <div class="desc_content_blog">
+                      <div class="post_desc">
+                          <div class="post_header">
+                              <ul>
+                                  <li><a>Fashion</a></li>
+                              </ul>
+                          </div>
+                          <div class="post_title">
+                              <h3>Mauris nec malesuada fames ac turpis velit</h3>
+                          </div>
+                          <div class="post_excerpt">
+                          <p>Lorem ipsum dolor sit amet quam. Nullam vitae ipsum dolor auctor tincidunt. Nullam feugiat congue, aliquet mauris orci, blandit eros, ut ante volutpat at, cursus non, dolor. Aliquam erat dictum enim. Aliquam et magna. Vestibulum nibh. Donec est. Duis pretium eu.</p>
+                          </div>
+                          <div class="post_footer">
+                            <div class="post_author">
+                                <img src="/images/img_blog/057e2eb392b95a2ecfc9d32d554e3917.png">
+                                  <span>Muffin Group</span>
+                            </div>
+                            <span class="post_date">
+                              <i class="fa-solid fa-clock"></i> <span>October 11, 2021</span>
+                            </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="item_content_blog">
+                <div class="img_content_blog">
+                    <img src="/images/img_blog/babyshop-blog-pic3-1200x675.webp">
+                    <div class="button_love">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>49</span>
+                    </div>
+                </div>
+                <div class="desc_content_blog">
+                    <div class="post_desc">
+                        <div class="post_header">
+                            <ul>
+                                <li><a>LifeStyle</a></li>
+                                <li><a>Travel</a></li>
+                            </ul>
+                        </div>
+                        <div class="post_title">
+                            <h3>Utin laoreet sapien eu amet lorem kebab</h3>
+                        </div>
+                        <div class="post_excerpt">
+                        <p>Phasellus vitae facilisis congue. Donec nulla eu pede ac arcu nec enim quis nibh. Fusce venenatis consequat. Curabitur gravida ornare. Etiam mollis luctus. Maecenas pulvinar sem ut wisi. In accumsan lectus semper nisl, commodo tempus, dui eu libero. Pellentesque nonummy gravida. Duis posuere orci elit, interdum rhoncus, dui lectus non.</p>
+                        </div>
+                        <div class="post_footer">
+                          <div class="post_author">
+                              <img src="/images/img_blog/057e2eb392b95a2ecfc9d32d554e3917.png">
+                                <span>Muffin Group</span>
+                          </div>
+                          <span class="post_date">
+                            <i class="fa-solid fa-clock"></i> <span>September 21, 2021</span>
+                          </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item_content_blog">
+              <div class="img_content_blog">
+                  <img src="/images/img_blog/babyshop-blog-pic4-1200x675.webp">
+                  <div class="button_love">
+                      <i class="fa-solid fa-heart"></i>
+                      <span>49</span>
+                  </div>
+              </div>
+              <div class="desc_content_blog">
+                  <div class="post_desc">
+                      <div class="post_header">
+                          <ul>
+                              <li><a>LifeStyle</a></li>
+                          </ul>
+                      </div>
+                      <div class="post_title">
+                          <a href="/html/Blog1.html"><h3>Aenean sodales prium nullam aifend</h3></a>
+                          
+                      </div>
+                      <div class="post_excerpt">
+                      <p>Aenean sodales prium nullam aifend</p>
+                      </div>
+                      <div class="post_footer">
+                        <div class="post_author">
+                            <img src="/images/img_blog/057e2eb392b95a2ecfc9d32d554e3917.png">
+                              <span>Muffin Group</span>
+                        </div>
+                        <span class="post_date">
+                          <i class="fa-solid fa-clock"></i> <span>September 21, 2021</span>
+                        </span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            </div>
+            
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
