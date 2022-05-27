@@ -7,6 +7,8 @@ h3{
 }
 
 .wrapper_ourProduct{
+    margin-bottom:650px;
+    background-color: white;
     .ourProduct_title{
         ul{
             padding-left:0;
@@ -486,6 +488,9 @@ input[type="email"]:focus{
     }
 }
 @media screen and (max-width: 450px){
+    .wrapper_ourProduct{
+        margin:0;
+    }
     .ourProduct_show {
         display: none;
     

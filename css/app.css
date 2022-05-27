@@ -685,6 +685,11 @@
   }
 }
 .footer_wapper {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  left: 0;
+  z-index: -1;
   color: #6a717c;
   background-color: #f6f7f9;
 }
@@ -824,6 +829,12 @@
   padding-left: 9%;
   padding-right: 9%;
   padding-bottom: 90px;
+}
+
+.content_wapper {
+  background-color: white;
+  margin-bottom: 650px;
+  z-index: 1;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -1525,8 +1536,15 @@
     font-size: 13px;
   }
 
+  .content_wapper {
+    margin: 0;
+  }
   .content_wapper .img_wrapper {
     max-width: 100%;
+  }
+
+  .footer_wapper {
+    position: unset;
   }
 
   .content_1 .container .content1_item span {
@@ -1643,6 +1661,10 @@ h3 {
   font-weight: 200;
 }
 
+.wrapper_ourProduct {
+  margin-bottom: 650px;
+  background-color: white;
+}
 .wrapper_ourProduct .ourProduct_title ul {
   padding-left: 0;
   justify-content: center;
@@ -2098,6 +2120,10 @@ input[type=email]:focus {
   }
 }
 @media screen and (max-width: 450px) {
+  .wrapper_ourProduct {
+    margin: 0;
+  }
+
   .ourProduct_show {
     display: none;
   }
@@ -2158,6 +2184,10 @@ input[type=email]:focus {
   color: #ebc989;
 }
 
+.aboutUs_wrapper {
+  margin-bottom: 650px;
+  background-color: white;
+}
 .aboutUs_wrapper .modal .modal-dialog {
   top: 10%;
   width: 59%;
@@ -2450,6 +2480,9 @@ input[type=email]:focus {
     width: 85% !important;
   }
 
+  .aboutUs_wrapper {
+    margin: 0;
+  }
   .aboutUs_wrapper .modal .modal-dialog {
     top: 20%;
     width: 362px;
@@ -2534,6 +2567,8 @@ input[type=email]:focus {
 }
 
 .wrapper_blog {
+  margin-bottom: 650px;
+  background-color: white;
   text-align: center;
 }
 .wrapper_blog .header_blog {
@@ -2620,6 +2655,9 @@ input[type=email]:focus {
   }
 }
 @media screen and (max-width: 450px) {
+  .wrapper_blog {
+    margin: 0;
+  }
   .wrapper_blog .content_blog .item_content_blog .desc_content_blog {
     width: 100%;
     bottom: 0px;
@@ -2831,6 +2869,10 @@ input[type=email]:focus {
   width: calc(100% + 1rem);
 }
 
+.wrapper_ClientCenter {
+  margin-bottom: 650px;
+  background-color: #fff;
+}
 .wrapper_ClientCenter .ClientCenter_header {
   text-align: center;
   padding: 3%;
@@ -3007,6 +3049,10 @@ input[type=email]:focus {
     margin-bottom: 5%;
   }
 }
+.wrapper-Pag {
+  margin-bottom: 700px;
+  background-color: white;
+}
 .wrapper-Pag .Pag-header {
   text-align: center;
 }
@@ -3027,8 +3073,6 @@ input[type=email]:focus {
 
 .Paq-list_link {
   text-align: center;
-  position: fixed;
-  top: 20%;
 }
 
 .Paq-item_link {
@@ -3122,6 +3166,10 @@ input[type=email]:focus {
 }
 
 @media screen and (max-width: 450px) {
+  .wrapper-Pag {
+    margin: 0;
+  }
+
   .Paq-list_link {
     position: unset;
   }
@@ -3237,6 +3285,10 @@ ul {
   padding: 80px 0;
 }
 
+.wrapper-product {
+  margin-bottom: 650px;
+  background-color: white;
+}
 .wrapper-product .product-desc {
   padding: 70px 0;
 }
@@ -3580,6 +3632,9 @@ figure.zoom img {
   }
 }
 @media screen and (max-width: 450px) {
+  .wrapper-product {
+    margin: 0;
+  }
   .wrapper-product h2 {
     line-height: 1.3;
   }
@@ -3624,6 +3679,10 @@ figure.zoom img {
     display: flex;
     flex-direction: column;
   }
+}
+.wrapper_blog1 {
+  margin-bottom: 650px;
+  background-color: white;
 }
 .wrapper_blog1 .blog1_header {
   text-align: center;
@@ -3783,6 +3842,10 @@ figure.zoom img {
   }
 }
 @media screen and (max-width: 450px) {
+  .wrapper_blog1 {
+    margin: 0;
+  }
+
   .container {
     width: 90% !important;
   }
@@ -3803,6 +3866,9 @@ figure.zoom img {
   .idea-box_icon {
     padding: 40px 10px 25px 30px;
   }
+}
+body {
+  z-index: 1;
 }
 body .dp_block {
   display: block;
@@ -4005,6 +4071,7 @@ body .content_8 .content_8_list .content_8_title h6 {
   font-size: 13px;
 }
 body .list_product .item_product {
+  margin: 20px 0;
   text-align: center;
 }
 body .list_product .item_product .img_product {

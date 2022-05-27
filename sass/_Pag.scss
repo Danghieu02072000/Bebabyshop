@@ -1,4 +1,6 @@
 .wrapper-Pag{
+    margin-bottom:700px;
+    background-color: white;
     .Pag-header{
         text-align: center;
     }
@@ -21,8 +23,6 @@
 
 .Paq-list_link{
     text-align: center;
-    position: fixed;
-    top:20%;
 }
 .Paq-item_link{
     padding: 15px 0;
@@ -119,6 +119,9 @@
     margin:5px 0;
 }
 @media screen and (max-width: 450px){
+    .wrapper-Pag{
+        margin:0;
+    }
     .Paq-list_link{
         position: unset;
     }

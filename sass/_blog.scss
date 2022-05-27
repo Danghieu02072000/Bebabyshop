@@ -30,6 +30,8 @@
     font-weight: 600;
 }
 .wrapper_blog{
+    margin-bottom:650px;
+    background-color: white;
     text-align: center;
     .header_blog{
         padding:40px 0;
@@ -128,6 +130,7 @@
 }
 @media screen and (max-width: 450px){
     .wrapper_blog{
+        margin:0;
         .content_blog .item_content_blog .desc_content_blog {
             width:100%;
             bottom:0px;

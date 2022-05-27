@@ -1,4 +1,5 @@
 body{
+    z-index: 1;
     .dp_block{
         display: block;
     }
@@ -213,6 +214,7 @@ body{
 //modul__product
 .list_product{
     .item_product{
+        margin: 20px 0;
         text-align: center;
         .img_product{
             position: relative;

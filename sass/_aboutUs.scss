@@ -4,6 +4,8 @@
 
 
 .aboutUs_wrapper{
+    margin-bottom:650px;
+    background-color: white;
     .modal{
         .modal-dialog{
             top:10%;
@@ -348,6 +350,7 @@
         width:85% !important;
     }
     .aboutUs_wrapper{
+        margin: 0;
         .modal{
             .modal-dialog{
                 top:20%;

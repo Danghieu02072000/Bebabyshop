@@ -86,6 +86,8 @@ ul{
     padding: 80px 0;
 }
 .wrapper-product{
+    margin-bottom:650px;
+    background-color: white;
     .product-desc{
         padding:70px 0;
     }
@@ -434,6 +436,7 @@ figure.zoom {
 }
 @media screen and (max-width: 450px){
     .wrapper-product{
+        margin:0;
         h2{
             line-height: 1.3;
         }

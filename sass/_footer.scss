@@ -1,4 +1,9 @@
 .footer_wapper{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+    z-index: -1;
     color: #6a717c;
     background-color: #f6f7f9;
     .footer_center{
