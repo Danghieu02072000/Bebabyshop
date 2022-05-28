@@ -2234,7 +2234,7 @@ input[type=email]:focus {
 .aboutUs_wrapper .container .aboutUs_hello {
   text-align: center;
   width: 40%;
-  margin: 50px 30% 20px;
+  padding: 50px 30% 20px;
 }
 .aboutUs_wrapper .container .aboutUs_hello h1 {
   font-size: 110px;
