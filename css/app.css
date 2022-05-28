@@ -41,7 +41,7 @@
 
 .Top_bar {
   text-align: center;
-  margin-bottom: 3%;
+  padding-bottom: 3%;
 }
 .Top_bar .container {
   position: relative;
@@ -4066,7 +4066,7 @@ body .list_color .item_color::before {
   background-color: #171b20;
   color: white;
   opacity: 0;
-  transform: translate(-50%, -122%);
+  transform: translate(-50%, -120%);
   padding: 9px 18px;
   border-radius: 5px;
   font-size: 14px;
