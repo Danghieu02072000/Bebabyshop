@@ -2233,7 +2233,6 @@ input[type=email]:focus {
 }
 .aboutUs_wrapper .container .aboutUs_hello {
   text-align: center;
-  width: 40%;
   padding: 0 30% 20px;
 }
 .aboutUs_wrapper .container .aboutUs_hello h1 {
