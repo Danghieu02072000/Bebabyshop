@@ -3980,6 +3980,7 @@ body .list_color {
   padding: 0px;
 }
 body .list_color .item_color {
+  position: relative;
   text-align: center;
   padding-left: 5px;
 }
@@ -4050,6 +4051,40 @@ body .list_color .item_color .violet {
   height: 21px;
   border-radius: 100%;
   background-color: #5a3652;
+}
+body .list_color .item_color:hover::after {
+  opacity: 1;
+  background-color: #171b20;
+}
+body .list_color .item_color:hover::before {
+  content: attr(data-tooltip);
+  opacity: 1;
+}
+body .list_color .item_color::before {
+  position: absolute;
+  width: max-content;
+  background-color: #171b20;
+  color: white;
+  opacity: 0;
+  transform: translate(-50%, -122%);
+  padding: 9px 18px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+body .list_color .item_color::after {
+  position: absolute;
+  z-index: 98;
+  display: block;
+  bottom: 120%;
+  left: 58%;
+  content: "";
+  width: 13px;
+  height: 13px;
+  border-radius: 2px;
+  margin-bottom: -4px;
+  transform: translate(-50%, 0) rotate(45deg);
+  opacity: 0;
+  pointer-events: none;
 }
 body .content_8 {
   padding: 70px 0;
